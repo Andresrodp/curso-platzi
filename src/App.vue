@@ -1,15 +1,19 @@
 <template>
-  <div id="app">
-    <PxHeader />
-  </div>
+  <main>
+    <Px-header />
+    <Px-assets-table />
+  </main>
 </template>
 
 <script>
 import PxHeader from './components/PxHeader.vue'
+import PxAssetsTable from './components/PxAssetsTable.vue'
+
 export default {
   name: 'App',
   components: {
-    PxHeader
+    PxHeader,
+    PxAssetsTable
   }
 }
 </script>
