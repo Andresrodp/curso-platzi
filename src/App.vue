@@ -1,19 +1,19 @@
 <template>
   <main>
     <Px-header />
-    <Px-assets-table />
+
+    <router-view class="container px-5 sm:px-20 py-20 flex justify-center"/>
   </main>
 </template>
 
 <script>
 import PxHeader from './components/PxHeader.vue'
-import PxAssetsTable from './components/PxAssetsTable.vue'
+
 
 export default {
   name: 'App',
   components: {
     PxHeader,
-    PxAssetsTable
   }
 }
 </script>
